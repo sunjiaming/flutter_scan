@@ -25,10 +25,10 @@ apply plugin: 'com.android.library'
 
 android {
     namespace "com.chavesgu.scan"
-    compileSdkVersion 29
+    compileSdkVersion 34
 
     defaultConfig {
-        minSdkVersion 19
+        minSdkVersion 26
         consumerProguardFiles 'consumer-proguard-rules.pro'
     }
     lintOptions {
